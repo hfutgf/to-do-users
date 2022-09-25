@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Users</title>
+</head>
+
+<body>
+  <div class="container d-flex ">
+    <nav class="nav">
+      <div class="nav-logo__title p-4">
+        <a href="#" class="nav-logo__title-link d-flex align-items-center ">
+          <img src="./img/logo.svg" alt="logo">
+          <h1 class="logo__title mx-2" style="width: 136px;">Dashboard Kit</h1>
+        </a>
+      </div>
+      <div class="nav-menu p-4">
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/overview.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Overview</h3>
+          </a>
+        </div>
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/teickets.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Tickets</h3>
+          </a>
+        </div>
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/ideas.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Ideas</h3>
+          </a>
+        </div>
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/contacs.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Contacts</h3>
+          </a>
+        </div>
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/agents.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Agents</h3>
+          </a>
+        </div>
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/articels.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Articles</h3>
+          </a>
+        </div>
+
+      </div>
+      <hr>
+
+      <div class="nav-settings p-4">
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/settings.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Settings</h3>
+          </a>
+        </div>
+        <div class="nav-menu__item">
+          <a href="#" class="nav-menu__item-link">
+            <img src="./img/subscription.svg" alt="menu-img">
+            <h3 class="nav-menu__item-title">Subscription</h3>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+    <div class="main d-flex flex-column">
+      <header class="main-header d-flex ">
+        <div class="header__left">
+          <h2 class="header__left-title">
+            Tickets
+          </h2>
+        </div>
+        <div class="header__right">
+          <div class="header__right-icons">
+            <img src="./img/search.svg" alt="icons-img" width="15">
+            <img src="./img/new.svg" alt="icons-img" width="15">
+          </div>
+          <span class="header__right-span"></span>
+          <div class="header__right-user">
+            <h4 class="header__right-user-name">Jones Ferdinand</h4>
+            <img src="./img/user-img.png" alt="user-img" class="header__right-user-img" width="44" height="44">
+          </div>
+        </div>
+      </header>
+      <div class="main-card m-4 bg-light">
+        <div class="main-card-header">
+          <h3 class="main-card-header__title m-0">
+            All tickets
+          </h3>
+          <div class="main-card-header__right d-flex">
+            <div class="main-card-haeder__right-opt d-flex">
+              <img src="./img/soft.svg" alt="sift-img" width="13" class="mx-2 ">
+              <p class="m-0 " id="sorted">Sort</p>
+            </div>
+            <div class="main-card-haeder__right-opt d-flex mx-3">
+              <img src="./img/filter.svg" alt="filter-img" width="13" class="mx-2">
+              <select name="select" id="select">
+                <option value="filter">Filter</option>
+                <option value="high">High</option>
+                <option value="low">Low</option>
+                <option value="normal">Normal</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="main-card__menu">
+          <table class="main-card__menu-table">
+            <tbody>
+              <tr class="main-card__menu-table-t ">
+                <th class="ticket">Ticket details</th>
+                <th class="customer">Customer name</th>
+                <th class="date">Date</th>
+                <th class="priorty">Priority</th>
+              </tr>
+            </tbody>
+            <span class="table__span"></span>
+          </table>
+          <div class="users">
+            <div class="user p-4 d-flex">
+              <div class="user-imgage">
+                <img src="./img/user-img.png" alt="user-img" class="user__image-i " width="44" height="44">
+              </div>
+              <div class="user-j ">
+                <h4 class="user-job__paragraph">
+                  Contact Email not Linked
+                </h4>
+                <span class="user__span">
+                  Updated 1 day ago
+                </span>
+              </div>
+              <div class="user-info">
+                <h4 class="user-info__name">
+                  Tom Cruise
+                </h4>
+                <span class="user__span">
+                  on 24.05.2019
+                </span>
+              </div>
+              <div class="user-date">
+                <h4 class="user-date__day">
+                  May 26, 2019
+                </h4>
+                <span class="user__span">
+                  6:30 PM
+                </span>
+              </div>
+              <div class="user-level">
+                <h4 class="user-level__l text-light">High</h4>
+              </div>
+              <div class="user-edit">
+                <ul class="user-edit__down" id="edition">
+                  <li>High</li>
+                  <li>Low</li>
+                  <li>Normal</li>
+                </ul>
+
+                <span class="span"></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./users.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
